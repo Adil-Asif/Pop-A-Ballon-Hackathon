@@ -21,7 +21,7 @@ for (let i = 0; i < 40; i++) {
         event.target.style.color = "green";
         k= k+1
         console.log(k)
-        if (event.color === "red" ){
+        if (event.target.color === "red" ){
 score = score +1;
 }
       }
