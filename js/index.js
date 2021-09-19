@@ -1,6 +1,8 @@
 let j = 0;
 let k=0;
-lineBreak = document.createElement("br");
+let score = 0;
+alert("Color to Pop is red"); 
+
 for (let i = 0; i < 40; i++) {
   j = j + 1;
   console.log(j);
@@ -19,10 +21,13 @@ for (let i = 0; i < 40; i++) {
         event.target.style.color = "green";
         k= k+1
         console.log(k)
+        if (event.color === "red" ){
+score = score +1;
+}
       }
 
       if (k===40){
-        setTimeout(function(){ alert("Congratulation You Won \n Your Score is: 40"); }, 500);
+        setTimeout(function(){ alert("Congratulation You Won \n Your Score is: " + score); }, 500);
       }
     }
   });
@@ -38,12 +43,7 @@ for (let i = 0; i < 40; i++) {
   }
 
   document.getElementById("game").appendChild(balloon);
-  if (j == 8) {
-    document.getElementById("game").appendChild(lineBreak);
-    j = 0;
-  }
+
 }
 
-function popBalloon(balloonNumber) {
-  let popBalloon = "red";
-}
+
