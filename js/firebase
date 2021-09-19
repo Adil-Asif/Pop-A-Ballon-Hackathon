@@ -1,0 +1,28 @@
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDezpAvTRNlYsqW_VEdN6hflIJuMyqWAiU",
+//   authDomain: "smit-6abfc.firebaseapp.com",
+//   projectId: "smit-6abfc",
+//   storageBucket: "smit-6abfc.appspot.com",
+//   messagingSenderId: "830583586559",
+//   appId: "1:830583586559:web:1b1b0f4fd4d63630a4d6ca",
+//   measurementId: "G-7L3F445QMT",
+// };
+
+// App.initializeApp(firebaseConfig);
+
+// function registerUser() {
+//   username = document.getElementById("username");
+//   email = document.getElementById("email");
+//   password = document.getElementById("password");
+//   console.log(username.value);
+
+//   firebase.auth().createUserWithEmailAndPassword(username, email, password).then((userCredential) => {
+//       // Signed in
+//       var user = userCredential.user;
+//       // ...
+//     }).catch((error) => {
+//       var errorCode = error.code;
+//       var errorMessage = error.message;
+//       // ..
+//     });
+// }

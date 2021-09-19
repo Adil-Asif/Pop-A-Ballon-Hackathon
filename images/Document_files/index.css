@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  background-color: #071e3d;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  font-family: "Varela Round", sans-serif;
+}
+.logo {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  color: #071e3d;
+  align-items: center;
+}
+.logo p {
+  margin-top: 20px;
+}
+.logo:hover {
+  color: #185adb;
+  cursor: pointer;
+}
+.logo img {
+  width: 60px;
+}
+
+.header .account {
+  display: flex;
+  align-items: center;
+}
+
+.header .account a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header .account .login:hover {
+  color: #185adb;
+}
+
+.header .account .register {
+  border: 2px solid #071e3d;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.header .account .register:hover {
+  background-color: #185adb;
+  color: white;
+  border-color: #185adb;
+}
+
+.modal-header {
+  display: block;
+}
+.modal-header button {
+  border: none;
+  float: right;
+  font-weight: bold;
+}
+.modal-header button:hover {
+  font-size: 20px;
+  }
+.modal-header button:focus {
+  background-color: white;
+}
+
+.modal-body{
+ width: 75%;
+ margin: 5% 0px -3% 13% ;
+}
+
+.modal-content{
+    border: 2px solid #185adb;
+    border-radius: 8px;
+}
+
+.modal-footer{
+    justify-content: center;
+    /* width: 75%; */
+    /* margin: 0% 0px 3% 25% ; */
+    border: none;
+}
+
+.game{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 5% 20% 0% 20%;
+    padding: 10px;
+}
+.game h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.balloon{
+    width: 57px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 60px;
+    display: inline-block;
+}
